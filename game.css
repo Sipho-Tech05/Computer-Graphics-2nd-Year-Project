@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 2px solid grey;
+    background-color: black;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#start-screen h1 {
+    font-size: 3em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: dodgerblue;
+    text-shadow: 0 0 10px dodgerblue;
+}
+
+#start-screen p {
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px dodgerblue;
+}
+
+#game-over h1 {
+    color: dodgerblue;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px dodgerblue;
+}
+
+#restart-btn {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#restart-btn:hover {
+    background-color: dodgerblue;
+}
+
+#pause-btn {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#pause-btn:hover {
+    background-color: dodgerblue;
+}
+
+#resume-btn {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#resume-btn:hover {
+    background-color: dodgerblue;
+}
+
+#score-display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
